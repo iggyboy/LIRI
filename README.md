@@ -28,9 +28,9 @@ this function calls the Spotify API and searches for details about songs matchin
     
         node ./liri.js spotify-this "Sicko Mode"
 
-    video
+video
     
-        video here
+[Link Here](https://streamable.com/t6ikp)
 
 
 - movie-this "movie"
@@ -42,9 +42,9 @@ this function searches the OMDB API for details about the movie that matches the
     
         node ./liri.js movie-this "Akira"
 
-    video
+video
     
-        video here
+[Link Here](https://streamable.com/lqtns)
 
 
 - do-what-it-says
@@ -55,9 +55,9 @@ this function reads the file "random.txt" in the same directory as liri.js and r
     
         node ./liri.js do-what-it-says
 
-    video
+video
     
-        video here
+[Link Here](https://streamable.com/f4xyz)
         
         
         
