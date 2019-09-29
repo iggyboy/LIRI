@@ -55,8 +55,13 @@ function bands(artist) {
         });
 }
 function spotifyThis(song) {
+    let songsearch = song;
+    if (!song) {
+        songsearch = "The Sign";
+    }
+    console.log(songsearch);
     spotify
-        .search({ type: 'track', query: song })
+        .search({ type: 'track', query: songsearch })
         .then(function (response) {
             for (var i = 0; i < response.tracks.items.length; i++) {
                 console.log("Artist: " + response.tracks.items[i].album.artists[0].name);
@@ -71,8 +76,14 @@ function spotifyThis(song) {
         });
 }
 function movieThis(movie) {
+    let moviesearch = movie;
+    if (!movie) {
+        moviesearch = "Mr Nobody";
+        console.log("If you haven't watched Mr Nobody, then you should: <http://www.imdb.com/title/tt0485947/>");
+        console.log("It's on Netflix!")
+    }
     axios
-        .get("http://www.omdbapi.com/?t="+movie+"&y=&plot=short&apikey=trilogy")
+        .get("http://www.omdbapi.com/?t="+moviesearch+"&y=&plot=short&apikey=trilogy")
         .then(function (response) {
             console.log("Title: " + response.data.Title);
             console.log("Year: " + response.data.Year);
