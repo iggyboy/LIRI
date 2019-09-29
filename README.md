@@ -58,3 +58,8 @@ this function reads the file "random.txt" in the same directory as liri.js and r
     video
     
         video here
+        
+        
+        
+        
+- note: I've had some trouble with this program displaying data incorrectly on git bash on certain machines. This issue has (so far) only been seen on one of my personal machines, so i'm not sure if it is an isolated issue.
