@@ -14,10 +14,10 @@ this function checks the bandsintown API for upcoming concerts for the specified
     usage example:
     
         node ./liri.js concert-this "Electric Wizard"
-
-    video
+        
+video
     
-        [Link Here](https://streamable.com/gpsw1)
+[Link Here](https://streamable.com/gpsw1)
 
 - spotify-this "song"
 
