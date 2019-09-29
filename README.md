@@ -22,7 +22,7 @@ this function checks the bandsintown API for upcoming concerts for the specified
 - spotify-this "song"
 
 
-    this function calls the Spotify API and searches for details about songs matching the title of your query. it then returns the 20 most relevant results and outputs details about them.
+this function calls the Spotify API and searches for details about songs matching the title of your query. it then returns the 20 most relevant results and outputs details about them.
 
     usage example
     
@@ -36,7 +36,7 @@ this function checks the bandsintown API for upcoming concerts for the specified
 - movie-this "movie"
 
 
-    this function searches the OMDB API for details about the movie that matches the user query. it then returns the details on the console.
+this function searches the OMDB API for details about the movie that matches the user query. it then returns the details on the console.
 
     usage example:
     
@@ -49,7 +49,7 @@ this function checks the bandsintown API for upcoming concerts for the specified
 
 - do-what-it-says
 
-    this function reads the file "random.txt" in the same directory as liri.js and runs the function specified in the file (if one exists) with the value specified in the file.
+this function reads the file "random.txt" in the same directory as liri.js and runs the function specified in the file (if one exists) with the value specified in the file.
 
     usage example:
     
