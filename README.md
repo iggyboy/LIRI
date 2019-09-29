@@ -17,7 +17,7 @@ this function checks the bandsintown API for upcoming concerts for the specified
 
     video
     
-        video here
+        https://streamable.com/gpsw1
 
 - spotify-this "song"
 
